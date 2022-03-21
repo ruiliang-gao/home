@@ -1,8 +1,8 @@
 title: Ruiliang Gao
 description: Ruiliang Gao's Personal Website
 
-url: ruiliang-gao.github.io
-baseurl: /home
+url: ruiliang-gao.github.io/home
+# baseurl: /home
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
