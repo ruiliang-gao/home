@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruiliang Gao</title>
+    <description>Ruiliang Gao&apos;s Personal Website</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Mar 2022 14:43:46 -0400</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2022 14:43:46 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator><item>
+        <title>TIPSlite</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;T&lt;/span&gt; IPSlite ia a physical and software interactive laparoscopy training interface that is accessible for users wherever there is sufficient internet connectivity. 
+TIPSlite features the first cellphone-based 4-DoF surgery simulation controller, as well as cross-platform remote surgical training.
+TIPSlite is to replace the complex haptic force feedback setup of standard TIPS, and to provide an low cost, low latency remote surgical interface with enough accuracy. &lt;a href=&quot;https://bitbucket.org/surflab/workspace/projects/TIPS&quot;&gt;code&lt;/a&gt;
+ &lt;a href=&quot;https://bitbucket.org/surflab/tips-android-controller/src/master/&quot;&gt;android&lt;/a&gt;
+  &lt;a href=&quot;https://bitbucket.org/surflab/tipscontroller-ios/src/master/&quot;&gt;ios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/uwlnJhhMKN4&quot; title=&quot;TIPSlite usage and demo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;!-- &lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+&lt;blockquote&gt;Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.&lt;/blockquote&gt;
+
+Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+## Unordered List
+* List Item
+* Longer List Item
+  * Nested List Item
+  * Nested Item
+* List Item
+
+## Ordered List
+1. List Item
+2. Longer List Item
+    1. Nested OL Item
+    2. Another Nested Item
+3. List Item
+
+## Definition List
+&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;Black hot drink&lt;/dd&gt;
+  &lt;dt&gt;Milk&lt;/dt&gt;
+  &lt;dd&gt;White cold drink&lt;/dd&gt;
+&lt;/dl&gt;
+
+Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+## Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. --&gt;
+
+</description><description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;T&lt;/span&gt; IPSlite ia a physical and software interactive laparoscopy training interface that is accessible for users wherever there is sufficient internet connectivity. 
+TIPSlite features the first cellphone-based 4-DoF surgery simulation controller, as well as cross-platform remote surgical training.
+TIPSlite is to replace the complex haptic force feedback setup of standard TIPS, and to provide an low cost, low latency remote surgical interface with enough accuracy. &lt;a href=&quot;https://bitbucket.org/surflab/workspace/projects/TIPS&quot;&gt;code&lt;/a&gt;
+ &lt;a href=&quot;https://bitbucket.org/surflab/tips-android-controller/src/master/&quot;&gt;android&lt;/a&gt;
+  &lt;a href=&quot;https://bitbucket.org/surflab/tipscontroller-ios/src/master/&quot;&gt;ios&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 15 Mar 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/TIPSlite/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/TIPSlite/</guid></item><item>
+        <title>Plastic hexahedral FEM for surgical simulation</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;To better capture tissue plasticity for hexahedral meshes, this work compares to and extends the linear-corotational and hyperelastic FEMs in Simulation Open Framework Architecture (SOFA) to handle large plastic deformation on hexahedral meshes, with focus on surgical simulation. We Devises a simple plastic decomposition scheme that handles both rotational and stretching plasticity, while preserving the volume  &lt;a href=&quot;https://bitbucket.org/surflab/sofa_tips/src/master/&quot;&gt;code&lt;/a&gt;
+	&lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-030-87202-1_55&quot;&gt;paper&lt;/a&gt; 
+	&lt;a href=&quot;https://drive.google.com/file/d/1pJaWYeADHkF9uMqcdf84736Csi9JmBhK/preview&quot;&gt;video&lt;/a&gt; &lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://drive.google.com/file/d/1pJaWYeADHkF9uMqcdf84736Csi9JmBhK/preview&quot; title=&quot;Plastic hexahedral FEM for surgical simulation&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+</description><description>&lt;p class=&quot;intro&quot;&gt;To better capture tissue plasticity for hexahedral meshes, this work compares to and extends the linear-corotational and hyperelastic FEMs in Simulation Open Framework Architecture (SOFA) to handle large plastic deformation on hexahedral meshes, with focus on surgical simulation. We Devises a simple plastic decomposition scheme that handles both rotational and stretching plasticity, while preserving the volume  &lt;a href=&quot;https://bitbucket.org/surflab/sofa_tips/src/master/&quot;&gt;code&lt;/a&gt;
+	&lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-030-87202-1_55&quot;&gt;paper&lt;/a&gt; 
+	&lt;a href=&quot;https://drive.google.com/file/d/1pJaWYeADHkF9uMqcdf84736Csi9JmBhK/preview&quot;&gt;video&lt;/a&gt; &lt;/p&gt;
+</description><pubDate>Tue, 15 Mar 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/hex-plasticity/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/hex-plasticity/</guid></item><item>
+        <title>TIPS-Author and Trainee</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; new addition to TIPS-author are safety rules that are set by the SE and are automatically monitored during simulation. Errors are recorded as visual snapshots for feedback to the trainee. This work
+reports on the implementation and opportunistic evaluation of the snapshot mechanism as a trainee feedback mechanism. TIPS was field tested
+at two surgical conferences, one before and one after adding the snapshot feature.
+  &lt;a href=&quot;https://bitbucket.org/surflab/tips-author_git/src/master/&quot;&gt;code&lt;/a&gt;
+	&lt;a href=&quot;https://arxiv.org/pdf/2111.02523.pdf&quot;&gt;paper&lt;/a&gt; 
+	&lt;a href=&quot;https://www.youtube.com/embed/POSvNf-spQ8&quot;&gt;video&lt;/a&gt; 
+	&lt;a href=&quot;http://tips-author.appspot.com/#/procedures/&quot;&gt;web&lt;/a&gt; &lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/POSvNf-spQ8&quot; title=&quot;TIPS-Author and Trainee&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;!-- Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll&apos;s GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com --&gt;
+</description><description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;A&lt;/span&gt; new addition to TIPS-author are safety rules that are set by the SE and are automatically monitored during simulation. Errors are recorded as visual snapshots for feedback to the trainee. This work
+reports on the implementation and opportunistic evaluation of the snapshot mechanism as a trainee feedback mechanism. TIPS was field tested
+at two surgical conferences, one before and one after adding the snapshot feature.
+  &lt;a href=&quot;https://bitbucket.org/surflab/tips-author_git/src/master/&quot;&gt;code&lt;/a&gt;
+	&lt;a href=&quot;https://arxiv.org/pdf/2111.02523.pdf&quot;&gt;paper&lt;/a&gt; 
+	&lt;a href=&quot;https://www.youtube.com/embed/POSvNf-spQ8&quot;&gt;video&lt;/a&gt; 
+	&lt;a href=&quot;http://tips-author.appspot.com/#/procedures/&quot;&gt;web&lt;/a&gt; &lt;/p&gt;
+</description><pubDate>Wed, 15 Dec 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/TIPS-author/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/TIPS-author/</guid></item><item>
+        <title>TIPS Simulator</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;TIPS&lt;/span&gt; Toolkit for Illustration of Procedures in Surgery allows surgeon-educators (SEs) to create laparoscopic VR-training modules with force feedback. Below is a demo for Appendectomy procedure created using TIPS.
+  &lt;a href=&quot;https://www.cise.ufl.edu/research/SurfLab/TIPS/index.php&quot;&gt;project page&lt;/a&gt;
+	&lt;a href=&quot;https://www.cise.ufl.edu/research/SurfLab/TIPS/pubs.php&quot;&gt;publications&lt;/a&gt; 
+	&lt;a href=&quot;https://www.youtube.com/watch?v=XIwfnt4fIeE&amp;amp;ab_channel=ComputerGraphics&quot;&gt;video&lt;/a&gt; &lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/XIwfnt4fIeE&quot; title=&quot;TIPS Simulator&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;!-- &lt;figure&gt;
+	&lt;img src=&quot;/assets/img/safetyFlow.png&quot; width=&quot;650&quot; height=&quot;382&quot; alt=&quot;&quot;&gt; 
+	&lt;figcaption&gt; TIPS-author defines the interactive VR  training simulation: (1) The author specifies procedural steps and safety concerns in a fixed format. (2) Instruction pages are generated from the author&apos;s description. (3) Simlets (pieces of anatomy and their physical properties) are combined to initialize the scenario in TIPS-simulator. (4) Trainee achievements and safety violations are screen-captured in TIPS-simulator for post-review.
+	This is the focus and contribution of the paper.
+	(5) Completion and errors are reported to the trainee as snapshots of missteps.&lt;/figcaption&gt;
+	&lt;/figure&gt; --&gt;
+
+</description><description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;TIPS&lt;/span&gt; Toolkit for Illustration of Procedures in Surgery allows surgeon-educators (SEs) to create laparoscopic VR-training modules with force feedback. Below is a demo for Appendectomy procedure created using TIPS.
+  &lt;a href=&quot;https://www.cise.ufl.edu/research/SurfLab/TIPS/index.php&quot;&gt;project page&lt;/a&gt;
+	&lt;a href=&quot;https://www.cise.ufl.edu/research/SurfLab/TIPS/pubs.php&quot;&gt;publications&lt;/a&gt; 
+	&lt;a href=&quot;https://www.youtube.com/watch?v=XIwfnt4fIeE&amp;amp;ab_channel=ComputerGraphics&quot;&gt;video&lt;/a&gt; &lt;/p&gt;
+</description><pubDate>Sun, 01 Nov 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/TIPS-simulator/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/TIPS-simulator/</guid></item></channel>
+</rss>
