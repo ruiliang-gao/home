@@ -16,20 +16,19 @@ paginate: 5
 
 navigation:
   - title: Home
-    url: /index.html
+    url: /home/index.html
   - title: About
-    url: /about
+    url: /home/about
   # - title: Contact
   #   url: /contact
 
 social:
   github: ruiliang-gao
-  # twitter: brianmaierjr
-  # facebook: brianmaierjr
+
   email: rgao15@ufl.edu
   linkedin: ruiliang-gao-9057a09b
 
-# google_analytics: "UA-58263416-1"
+# google_analytics: "UA-"
 
 disqus:
     shortname: ruiliang
