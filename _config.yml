@@ -1,0 +1,35 @@
+title: Ruiliang Gao
+description: Ruiliang Gao's Personal Website
+
+url: ruiliang-gao.github.io/home
+# baseurl: /home
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+header: large
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  # - title: Contact
+  #   url: /contact
+
+social:
+  github: ruiliang-gao
+  # twitter: brianmaierjr
+  # facebook: brianmaierjr
+  email: rgao15@ufl.edu
+  linkedin: ruiliang-gao-9057a09b
+
+# google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: ruiliang

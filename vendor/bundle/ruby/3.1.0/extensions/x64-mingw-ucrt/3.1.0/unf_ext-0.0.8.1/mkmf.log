@@ -1,0 +1,40 @@
+have_library: checking for -lstdc++... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\VulkanSDK\1.3.204.0\Bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39;C:\Python27;C:\SIMULIA\Commands;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;C:\Qt\5.15.2\msvc2019_64\bin;C:\Qt\5.15.2\msvc2019_64\lib;C:\local\boost_1_75_0\lib64-msvc-14.2;C:\local\boost_1_75_0;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Ruby31-x64\bin;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\;C:\Users\Ruiliang\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ruiliang\.dotnet\tools;C:\Users\Ruiliang\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ruiliang\AppData\Roaming\npm" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\VulkanSDK\1.3.204.0\Bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39;C:\Python27;C:\SIMULIA\Commands;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;C:\Qt\5.15.2\msvc2019_64\bin;C:\Qt\5.15.2\msvc2019_64\lib;C:\local\boost_1_75_0\lib64-msvc-14.2;C:\local\boost_1_75_0;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Ruby31-x64\bin;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Ruiliang\AppData\Local\Programs\Python\Python39\;C:\Users\Ruiliang\AppData\Local\Microsoft\WindowsApps;C:\Users\Ruiliang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ruiliang\.dotnet\tools;C:\Users\Ruiliang\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ruiliang\AppData\Roaming\npm" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -lstdc++  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: 
+18: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+

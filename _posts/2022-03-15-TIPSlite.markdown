@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "TIPSlite"
+date:   2022-03-15
+demo: youtube
+demolink: https://www.youtube.com/embed/uwlnJhhMKN4
+demotitle: TIPSlite usage and demo
+description: TIPSlite ia a physical and software interactive laparoscopy training interface based on a cellphone-based 4-DoF surgery simulation controller that is accessible for users wherever there is sufficient internet connectivity. 
+---
+
+<p class="intro"><span class="dropcap">T</span> IPSlite ia a physical and software interactive laparoscopy training interface that is accessible for users wherever there is sufficient internet connectivity. 
+TIPSlite features the first cellphone-based 4-DoF surgery simulation controller, as well as cross-platform remote surgical training.
+TIPSlite is to replace the complex haptic force feedback setup of standard TIPS, and to provide an low cost, low latency remote surgical interface with enough accuracy. <a href="https://bitbucket.org/surflab/workspace/projects/TIPS">code</a>
+ <a href="https://bitbucket.org/surflab/tips-android-controller/src/master/">android</a>
+  <a href="https://bitbucket.org/surflab/tipscontroller-ios/src/master/">ios</a></p>
+
+<p align="center">
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/uwlnJhhMKN4" title="TIPSlite usage and demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+<!-- <p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+<blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
+
+Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+## Unordered List
+* List Item
+* Longer List Item
+  * Nested List Item
+  * Nested Item
+* List Item
+
+## Ordered List
+1. List Item
+2. Longer List Item
+    1. Nested OL Item
+    2. Another Nested Item
+3. List Item
+
+## Definition List
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+## Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. -->
+
