@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Blender2SOFA Hex Mesher"
+date:   2018-05-01
+demo: youtube
+demolink: https://drive.google.com/file/d/1s1l4pYdto9ueUtMIbq6ZqDJTxkLScA79/preview
+demotitle: Blender2SOFA demo
+---
+<p class="intro"><span class="dropcap">Blender2SOFA</span> is a Blender plugin-in that supprts geometry modeling and customization of physical, collision and visual models and export simulation-ready anatomies (simlets) for TIPS surgical simulator. Several hexahedral mesh generating algorithms such as sweeping, mapping have been implemented in Blender2SOFA. This short demo illustrates my newly added grid-based hexahedral mesher as well as the workflow of generating simlets for surgical simulation. 
+  <a href="https://bitbucket.org/surflab/blender2sofa/src/master/">code</a>
+  <a href="https://drive.google.com/file/d/1s1l4pYdto9ueUtMIbq6ZqDJTxkLScA79/view">video</a> </p>
+
+<p align="center">
+	<iframe width="640" height="360" src="{{page.demolink}}" title="{{page.title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<!-- The new bridging software in TIPS uses Blender exclusively for geometry
+modification, starting from basic anatomy created offline; and it extends the graphical
+user interface to add annotations that define the simulation behavior of the scene. -->
+<!-- at the artist level, where models are combined into scenes of compatible geometry, collision and physics models and default parameters are initialized; and -->
+<!-- To summarize, we implemented the following extensions of Blender:
+• augmentation of the user interface to annotate geometric models (organs, vessels,
+etc.) with tissue behavior and simulation parameters (Figure 4) for numerical softtissue simulation code (co-rotational finite elements, intersection testing, etc.)
+• data structures for importing/exporting/storing tetrahedral meshes.
+• geometry processing to automatically link objects (see Figure 3).
+• automatic extraction of extended Blender data and export to XML format consumable by SOFA for single-click simulation start.
+ -->
